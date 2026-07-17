@@ -26,19 +26,31 @@ Rare-Event-Multi-Scale-Prediction/
 │   ├── NFL First and Future EDA.ipynb
 │   └── Punt Data Analytics EDA.ipynb
 │
+├── Datasets/
+│   │
+│   ├── Big-Data-Bowl/
+│   │   ├──BDB_All_Plays_Clearn.csv
+│   │   ├──BDB_All_Plays.csv
+│   │   └──BDB_Experimental.csv
+│   │
+│   ├── First-and-Future/
+│   │   └──FNF_Model_Ready.csv
+│   │
+│   └──Punt-Data-Analytics/
+│       ├──PDA_All_Plays_VIF_DROP.csv
+│       ├──PDA_All_Plays.csv
+│       ├──PDA_Model_Ready.csv
+│       └──pda-model-ready-vif-drop.csv
+│
 ├── Data Cleaning/
-│   ├── Big Data Bowl Cleaning.ipynb
-│   ├── NFL First and Future Cleaning.ipynb
-│   └── Punt Data Analytics Cleaning.ipynb
+│   ├── Feature_Scaling_and_Analysis.ipynb
+│   ├── Forward_and_Backward_Feature_Selection.ipynb
+│   └── Polynomial_and_Interaction_terms.ipynb
 │
 ├── Modeling/
-│   ├── Feature Engineering.ipynb
-│   ├── Feature Selection.ipynb
-│   ├── Decision Trees.ipynb
-│   ├── Random Forest.ipynb
-│   ├── XGBoost.ipynb
-│   ├── CatBoost.ipynb
-│   └── Model Evaluation.ipynb
+│   ├── BDB Ensemble Modeling.ipynb
+│   ├── FNF Ensemble Modeling.ipynb
+│   └── PDA Ensemble Modeling.ipynb
 │
 └── Images/
 ```
@@ -115,7 +127,7 @@ Data preparation notebooks document the complete preprocessing pipeline, includi
 - Standardization of categorical variables
 - Feature encoding
 - Outlier handling
-- Multicollinearity analysis
+- Polynomial and Multicollinearity analysis
 - Feature selection
 - Preparation for model training
 
